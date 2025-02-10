@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 export default function AuthorCard() {
   return (
     <main className="bg-white shadow-lg rounded-lg p-6 mt-12">
       <div className="flex items-center animation-fadeIn">
-        <img
+        <Image
           className="w-16 h-16 rounded-full mr-4  border-2  "
           src="../images/pfp.webp"
           alt=""
